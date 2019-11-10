@@ -1,0 +1,46 @@
+body {
+    background: rgb(39, 153, 67);
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+p {
+    text-align: center;
+    color: white;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(100px, 293px));
+    justify-content: center;
+    grid-gap: 20px;
+}
+
+a {
+    padding: 15px 5px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background: rgb(92, 88, 85);
+    border-radius: 5px;
+}
+
+.box {
+    background: rgb(92, 88, 85);
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    width: 60%;
+}
+
+.canvas {
+    width: 500px;
+    margin: auto;
+    border: 1px solid white;
+}

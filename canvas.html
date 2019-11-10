@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Lineas en canvas</title>
+    <link rel="stylesheet" href="estilos/home.css">
+  </head>
+  <body>
+    <div class="box">
+      <h1>Dibujo en canvas</h1>
+      <p>
+        Cuantas lineas quieres?
+        <input type="text" id="textoLineas"/>
+      </p>
+      <p>
+        Cuantas esquinas quieres? (0-4)
+        <input type="text" id="textoEsquinas"/>
+      </p>
+      <p>
+        <input type="button" id="botoncito" value="Go!"/>
+      </p>
+      <div class="canvas">
+        <canvas id="dibujito" width="300" height="300"></canvas>
+      </div>
+      <p>Asi queda tu dibujo</p>
+    </div>
+    <script src="Js/dibujo.js"></script>
+  </body>
+</html>
